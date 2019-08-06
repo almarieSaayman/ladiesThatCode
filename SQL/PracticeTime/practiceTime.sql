@@ -146,12 +146,12 @@ INSERT INTO Product (name, description, price) VALUES
 -- can decide not to action the order until the paid column is set to true.
 INSERT INTO Orders (customerId, addressId, deliveryDateTime, paid) VALUES
 (10, 14, '2019-02-15 16:00:01', true),
-(10, 14, '2019-07-29 13:22:15', false),
+(10, 14, NULL, false),
 (11, 15, '2018-11-22 14:15:22', true),
 (11, 16, '2019-01-24 09:31:45', true),
 (11, 17, '2019-05-30 12:12:55', true),
 (11, 17, '2019-07-29 10:55:12', true),
-(12, 18, '2019-06-15 13:09:51', false);
+(12, 18, NULL, false);
 
 INSERT INTO OrderDetails (orderId, productId, quantity) VALUES 
 (1, 8, 1),
