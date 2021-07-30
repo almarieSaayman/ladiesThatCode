@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name=viewport content="width=device-width,initial-scale=1">
+		<meta name=author content="your name">
+		<link href="cv.css" rel="stylesheet" type="text/css"> 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+		<title>Lulu Nova CV</title>
+	</head>
+	<body>
+		<header>
+			<section>
+				<h1>Lulu Nova</h1>
+				<p>Software Engineer</p>
+			</section>
+			<nav>
+				<ul>
+					<li onclick="navigateToHome()">HOME</li>
+					<li onclick="navigateToResume()">RESUME</li>
+					<li onclick="navigateToContact()">CONTACT</li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<section  id="profilepicture">
+				<img src="profilePicture.png" alt="My profile picture"/>
+			</section>
+			<section id="about">
+				<p id="hello">Hello,</p>
+				<p style="font-size: 20pt;">a bit about me</p>
+				<ul>
+					<li id="myresume" class="circle">
+						<p>MY RESUME</p>
+					</li>
+					<li id="mywork" class="circle">
+						<p>MY WORK</p>
+					</li>
+					<li id="myskills"  onclick="showMySkills()" class="circle">
+						<p>MY SKILLS</p>
+					</li>
+				</ul>
+				<p id="aboutme">
+					I am a Bachelor of Computer and Information Sciences graduate from UJ South Africa. My strengths are problem solving in a structured manner, an ability to learn quickly, and affinity for new technologies, and a willingness to acquire new knowledge. I have work experience in the retail, catering, and commercial transport industry.
+				</p>
+			</section>
+		</article>
+		<footer>
+			<div>
+				<section>
+					<img src="callIcon.png" alt="call icon" />
+					<p><span class="label">Call</span><br>076 123 4567</p>
+				</section>
+				<section>
+					<img src="mailIcon.png" alt="mail icon" onclick="contactMeAlert()"/>
+					<p><span class="label">Contact</span><br>lulu.nova@gmail.com</p>
+				</section>
+				<section>
+					<img src="locationIcon.png" alt="location icon" />
+					<p><span class="label">Location</span><br>Melrose arch, Johanesburg, South Africa</p>
+				</section>
+			</div>
+		</footer>
+		<script src="myScript.js"></script>
+	</body>
+</html>
