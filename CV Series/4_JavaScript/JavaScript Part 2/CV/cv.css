@@ -1,0 +1,148 @@
+
+/* Activity 2 */
+body {
+    background-color: rgb(248, 242, 236);
+    color: rgb(102, 95, 90); 
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#myresume {
+    background-color: rgb(232, 53, 85);
+}
+
+#mywork {
+    background-color: rgb(098, 207, 212);
+}
+
+#myskills {
+    background-color: rgb(234, 187, 57);
+}
+
+.circle {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; 
+    color: white; 
+    list-style-type: none; 
+    /* extra */
+    margin: 0 5px;
+}
+
+/* Activity 3 */
+header li {
+    list-style-type: none;
+    /* Activity 4 */
+    width: 30%;
+}
+
+.circle p {
+    text-align: center;
+    /* extra */
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    line-height: 120px;
+}
+
+/* Activity 4 */
+header, article {
+    width: 1000px;
+    margin: 20px auto ;
+    /* Acitivity 5 */
+    display: flex;
+}
+
+header nav, header section {
+    width: 50%;
+    height: 100px;
+}
+
+/* Activity 5 */
+li {
+    display: inline-block;
+}
+
+article section {
+    width: 50%;
+}
+
+
+/* Activity 6 */ 
+header section {
+    font-family: 'Dancing Script';
+}
+
+/* Extra */
+#profilepicture {
+    padding-top: 40px;
+}
+
+header h1, header p {
+    margin: 0;
+    font-size: 200%;
+}
+
+footer {
+    background-color: rgb(232, 53, 85); 
+    color: white;
+    overflow: hidden;
+    padding: 20px;
+}
+
+footer div {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+
+footer section {
+    width: 300px;
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+
+footer img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+footer p {
+    margin: 0;
+    vertical-align: middle;
+}
+
+footer .label {
+    font-weight: bold;
+}
+
+#profilepicture img {
+    width: 400px;
+}
+
+header li:hover {
+    color: rgb(098, 207, 212);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#hello {
+    font-size: 40pt; 
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#aboutme {
+    font-size: 110%;
+    line-height: 1.5;
+}
+
+ul {
+    padding: 0;
+}
