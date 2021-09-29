@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Events</title>
+	</head>
+	<body onload="pageDoneLoading()">
+		<h4>On click event:</h4>
+		<button onclick="clickedUserEvent('button')">Press me!</button>
+		<p id="button"></p><br><br>
+		
+		<h4>The on click event works on any element not just on button:</h4>
+		<p onclick="clickedUserEvent('paragraph')">Press me!</p>
+		<p id="paragraph"></p><br><br>
+		
+		<h4>On change event:</h4>
+		<label>Choose a city:</label>
+		<select id="cities" onchange="changedUserEvent()">
+		  <option value="none" selected disabled hidden>Select an Option</option>
+		  <option value="Johannesburg">Johannesburg</option>
+		  <option value="Cape Town">Cape Town</option>
+		</select>
+		<p>You chose: </p><p id="chosenCity"></p><br><br>
+		
+		<h4>Mouse over and out event:</h4>
+		<p id="mouseOver" onmouseover="changeTextColor()" onmouseout="changeTextColorBack()">Some content that I can hover over</p>
+		
+		
+		<script src="events.js"></script>
+	</body>
+</html>
