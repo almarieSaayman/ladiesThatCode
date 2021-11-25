@@ -1,0 +1,20 @@
+{
+  "name": "my_cv",
+  "version": "1.0.0",
+  "description": "ladies that code CV",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm install && electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "package-win": "electron-packager . mycvapp --icon=cv.ico --overwrite --asar --platform=win32 --arch=ia32  --prune=true --out=buildsep --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"MarkDown\"",
+    "package-mac": "electron-packager . mycvapp --icon=cv.ico --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds"
+  },
+  "author": "Tsholofelo Pole",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.1",
+    "electron-builder": "^22.14.5",
+    "electron-packager": "^15.4.0"
+  }
+}
